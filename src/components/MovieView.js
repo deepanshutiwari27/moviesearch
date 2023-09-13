@@ -55,7 +55,7 @@ const MovieView = () => {
                             <div className="my-md-3 my-sm-1">
                                 <h2 style={{display: "inline"}}>GENRES </h2>
                                 <p style={{fontSize: "25px", display: "inline"}}>
-                                    {movieDetails.genres[0].name}
+                                    {movieDetails.genres.name}
                                 </p>
                             </div>
                         </div>
